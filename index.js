@@ -1,10 +1,16 @@
 var katzDeliLine = [];
 
-function takeANumber(katzDeliLine, name){
-  katzDeliLine.push(name);
-  var number = katzDeliLine.indexOf(name);
-  number += 1;
-  return `Welcome, ${name}. You are number ${number} in line.`
+function takeANumber(katzDeliLine){
+  let  i = 0
+  i++
+  katzDeliLine.push(i)
+  return "Welcome you are number " + i
+  
+  
+  // katzDeliLine.push(name);
+  // var number = katzDeliLine.indexOf(name);
+  // number += 1;
+  // return `Welcome, ${name}. You are number ${number} in line.`
 }
 
 function nowServing(katzDeliLine){
